@@ -53,8 +53,6 @@ cd hts_engine_API-1.08
 make
 sudo make install
 
-mv hts_engine_API-1.08 /usr/local/src
-
 cd /usr/local/src
 tar xvzf open_jtalk-1.07.tar.gz
 cd open_jtalk-1.07
