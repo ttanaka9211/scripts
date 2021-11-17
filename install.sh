@@ -64,8 +64,6 @@ sed -i "s/0x00D0 SPACE/0x000D SPACE/" mecab-naist-jdic/char.def
 make
 sudo make install
 
-mv open_jtalk-1.07 /usr/local/src
-
 cd /usr/local/src
 tar xvzf lame-3.99.5.tar.gz
 cd lame-3.99.5
@@ -73,15 +71,11 @@ cd lame-3.99.5
 make
 sudo make install
 
-mv lame-3.99.5 /usr/local/src
-
 cd /usr/local/src
 tar xvzf sox-14.4.1.tar.gz
 cd sox-14.4.1
 ./configure
 make
 sudo make install
-
-mv sox-14.4.1 /usr/local/src
 
 sudo ldconfig
