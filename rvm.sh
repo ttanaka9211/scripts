@@ -1,5 +1,9 @@
 #!/bin/bash
 
+sudo yum -y install \
+  gcc gcc-c++ glibc-headers \
+  openssl-devel readline libyaml-devel readline-devel zlib zlib-devel \
+  wget git ImageMagick ImageMagick-devel
 for i in $(seq 1 3)
 do
   \curl -sSL https://rvm.io/mpapis.asc | gpg --import - ; RET1=$?
