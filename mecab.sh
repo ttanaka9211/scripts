@@ -20,7 +20,7 @@ cd /usr/local/src
 tar xvzf mecab-ipadic-2.7.0-20070801.tar.gz
 cd mecab-ipadic-2.7.0-20070801
 patch -p1 < ../mecab-ipadic-2.7.0-20070801.patch
-./configure --with-charset=UTF-8
+./configure --with-charset=UTF-8 --with-mecab-config=/usr/local/bin/mecab-config
 make
 sudo make install
 #cd
