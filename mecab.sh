@@ -17,7 +17,7 @@ sudo make install
 #sudo mv mecab-0.996 /usr/local/src
 export PATH=$PATH:/usr/local/bin
 
-cd/usr/local/src
+cd /usr/local/src
 tar xvzf mecab-ipadic-2.7.0-20070801.tar.gz
 cd mecab-ipadic-2.7.0-20070801
 patch -p1 < ../mecab-ipadic-2.7.0-20070801.patch
