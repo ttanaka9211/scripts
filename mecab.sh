@@ -78,3 +78,6 @@ make
 sudo make install
 
 sudo ldconfig
+
+echo export PATH='/usr/local/bin:$PATH' >> ~/.bash_profile
+source ~/.bash_profile
