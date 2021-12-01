@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo dnf install https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
+sudo dnf install -y https://dl.fedoraproject.org/pub/epel/epel-release-latest-8.noarch.rpm
 sudo dnf config-manager --disable epel
 sudo dnf config-manager --disable epel-modular
 sudo dnf -y --enablerepo=epel,ol8_codeready_builder install ImageMagick ImageMagick-devel libyaml-devel
