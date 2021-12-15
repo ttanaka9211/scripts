@@ -22,6 +22,6 @@ else
 fi
 export PATH="$PATH:$RVM_HOME/bin"
 source $RVM_HOME/scripts/rvm
-rvm install 2.6.3 --disable-binary
-rvm use 2.6.3 --default
+rvm install 2.7.5 --disable-binary
+rvm use 2.7.5 --default
 gem install bundler
